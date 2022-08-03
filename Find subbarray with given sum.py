@@ -11,7 +11,7 @@ def subarray(arr, n, sum_):
 				
 				return 1
 				
-			if curr_sum > sum_ or j == n: 
+			if curr_sum > sum_ or j == n:
 				break
 			
 			curr_sum = curr_sum + arr[j] 
