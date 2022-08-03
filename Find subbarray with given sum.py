@@ -7,8 +7,7 @@ def subarray(arr, n, sum_):
 		while j <= n: 
 		
 			if curr_sum == sum_: 
-				print ("Sum found between indexes %d and %d"%( i, j-1)) 
-#				print("indexes % d and % d"%( i, j-1)) 
+				print ("Sum found between indexes %d and %d"%( i, j-1))
 				
 				return 1
 				
